@@ -4,18 +4,26 @@ public class Main {
     public static void main(String[] args) {
 
         int filas =0;
+        char x = 'D';
+        int i = 0;
+        int j=0;
+        char [] []matriz =new char [8][8];
 
-        char [][] matriz =new char [8][8];
+            for ( i = 0; i < matriz.length; i++) {
+                for(j=0;j<matriz[i].length;j++) {
+                    if ((i % 2 == 0) &&(j %2==0)) {
+                        matriz[i][j] = x;
+                    }else if((i%2!=0) && (j%2!=0)) {
+                        matriz[i][j] = x;
 
-        for (int i=0;i < matriz.length;i++) {
-            System.out.print(matriz[filas][i]);
+                    }
+                    System.out.print(matriz[i][j]);
 
-            for (int j = 0; j < matriz[filas].length; j++) {
-                System.out.print(matriz[j][i]);
+                }
+                    System.out.println();
 
             }
-            System.out.println();
-        }
-        System.out.println();
+
+
     }
 }
