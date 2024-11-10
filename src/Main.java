@@ -27,10 +27,10 @@ public class Main {
                         matriz[i][j] = x;                 //sustituimos la fila y la columna que son impares con el caracter leido desde teclado
 
                     }
-                    System.out.print(matriz[i][j]);
+                    System.out.print(matriz[i][j]);       //imprimimos los indices
 
                 }
-                    System.out.println();
+                    System.out.println();                 //imprimimos resultado con salto de linea.
 
             }
 
