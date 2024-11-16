@@ -2,7 +2,7 @@ import java.util.Scanner;                       //importando la clase Scanner
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Main {
+public class DionisRamirezEjercicio2 {
     public static void main(String[] args) {
 
         int i = 0;                                        //declaracion indice filas
